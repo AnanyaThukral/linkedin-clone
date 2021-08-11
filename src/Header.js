@@ -7,7 +7,7 @@ const Header = () => {
             <div className="header-left">
                 
             </div>
-            <div className="header-right">
+            <div className="header-rights">
 
             </div>
         </div>
