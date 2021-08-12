@@ -1,15 +1,11 @@
 import './App.css';
 import Header from './Header';
+import './Header.css'
 
 function App() {
   return (
     <div className="app">
-      {/*header*/}
-      <Header />
-      {/*app body*/}
-        {/*sidebar*/}
-        {/*feed*/}
-        {/*widgets*/}
+      <Header/>
     </div>
   );
 }
