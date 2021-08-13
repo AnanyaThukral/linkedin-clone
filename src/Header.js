@@ -23,7 +23,7 @@ const Header = () => {
                 <HeaderOption title  = "Jobs" Icon= {BusinessCenterIcon}/>
                 <HeaderOption title = "Messaging" Icon={SmsIcon}/>
                 <HeaderOption title = "Notifications" Icon= {NotificationsIcon}/>
-                <HeaderOption avatar = "https://im6.ezgif.com/tmp/ezgif-6-706efc5c6eeb.png" title = "Me"/>
+                <HeaderOption avatar = "https://media-exp1.licdn.com/dms/image/C4E03AQE4XMYFf-ebBg/profile-displayphoto-shrink_100_100/0/1610862416897?e=1634169600&v=beta&t=5E3IcPPNhNEorWw3ZO5WbANhDds32Z67w9MmMG6LiL0" title = "Me"/>
             </div>
         </div>
     )
