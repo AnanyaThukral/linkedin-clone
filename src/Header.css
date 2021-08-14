@@ -8,6 +8,7 @@
   width: 100%;
   padding: 10px 0;
   z-index: 999;
+  background: white;
 }
 .header-left img {
   object-fit: contain;
