@@ -19,7 +19,9 @@ const Feed = () => {
     //get posts from database
     const getPosts = () => {
         //onSnapshot real time listener connection
-        db.collection('posts').onSnapshot(snapshot=>{
+        db.collection('posts')
+        .orderBy('timestamp',"desc") 
+        .onSnapshot(snapshot=>{
             const tempPosts = snapshot.docs.map(doc=>(
                 {
                     id:doc.id,
@@ -45,6 +47,8 @@ const Feed = () => {
             photourl: "",
             timestamp: firebase.firestore.FieldValue.serverTimestamp()
         })
+
+        setInput('') //clear the input after submit
     }
 
     return (
